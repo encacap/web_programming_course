@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(255, 153, 51, 1);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+main nav {
+    flex: 1;
+}
+
+main nav ul {
+    flex-shrink: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main nav ul li {
+    padding: 10px;
+    background-color: rgba(51, 181, 229, 1);
+}
+
+main nav ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+section {
+    flex: 3;
+    padding: 0 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 0 20px;
+    background-color: rgba(51, 181, 229, 1);
+    color: #fff;
+}
+
+aside div {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(255, 153, 51, 1);
+    color: #fff;
+    text-align: center;
+}
