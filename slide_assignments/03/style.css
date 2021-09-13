@@ -1,0 +1,22 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    background-color: purple;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 2px;
+}
