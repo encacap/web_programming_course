@@ -8,9 +8,11 @@
 </head>
 <body>
     <h1>POST</h1>
-    <?php 
-        echo "<h3>Name: ".$_POST['name']."</h1>";
-        echo "<h3>Age: ".$_POST['age']."</h1>";
+    <?php
+        if (isset($_GET['name']) && isset($_POST['age'])){
+            echo 'Tên: ' . $_POST['name'] . '<br>';
+            echo 'Tuổi: ' . $_POST['age'];
+        }
     ?>
 </body>
 </html>

@@ -8,9 +8,11 @@
 </head>
 <body>
     <h1>GET</h1>
-    <?php 
-        echo "<h3>Name: ".$_GET["name"]."</h1>";
-        echo "<h3>Age: ".$_GET["age"]."</h1>";
+    <?php
+        if (isset($_GET['name']) && isset($_GET['age'])){ 
+            echo 'Tên: ' . $_GET['name'] . '<br>';
+            echo 'Tuổi: ' . $_GET['age']; 
+        }
     ?>
 </body>
 </html>
