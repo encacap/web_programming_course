@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 800px;
+    /* text-align: center; */
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
+
+label {
+    display: inline-block;
+    width: 50%;
+    font-weight: bold;
+    text-align: right;
+}
+
+button {
+    margin: 0 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+span.required {
+    color: red;
+}
+
+input {
+    border: 1px solid #7f9db9;
+}
+
+input.normal {
+    width: 150px;
+}
+
+input.short {
+    width: 50px;
+}
+
+input.long {
+    width: 200px;
+}
+
+.form_message {
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 50%;
+    padding: 0 4px;
+    font-weight: bold;
+}
+
+.form_header {
+    padding: 5px;
+    background-color: #003366;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.form_body {
+    margin: 10px 0;
+    border-top: 2px solid #ccc;
+    /* border-bottom: 2px solid #ccc; */
+}
+
+.form_block {
+    padding: 10px;
+}
+
+.form_block:not(:last-child) {
+    border-bottom: 2px solid #ccc;
+}
+
+.form_block.center {
+    display: flex;
+    justify-content: center;
+}
+
+.form_block_header {
+    font-weight: bolder;
+}
+
+.form_group {
+    padding: 5px 0;
+}
+
+.form_group.cols {
+    display: flex;
+}
+
+.form_group.cols .col {
+    width: 160px;
+    margin: 0 0 0 40px;
+}
+
+.form_group.cols label {
+    width: auto;
+}
