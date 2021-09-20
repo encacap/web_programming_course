@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/encacap/web_programming_course/issues"
   },
-  "homepage": "https://github.com/encacap/web_programming_course#readme"
+  "homepage": "https://github.com/encacap/web_programming_course#readme",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.17.5"
+  }
 }
