@@ -57,6 +57,10 @@ input.long {
     font-weight: bold;
 }
 
+.form_message.error {
+    color: red;
+}
+
 .form_header {
     padding: 5px;
     background-color: #003366;
